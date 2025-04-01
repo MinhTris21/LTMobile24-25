@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MỤC TIÊU CỦA SINH VIÊN"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="#00FF99"
+        android:padding="10dp"/>
+
+    <!-- Row Layout for Label & Text Box -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:text="Mục tiêu phát triển bản thân"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <!-- Label: "Your purpose" -->
+
+        <!-- Multi-line EditText -->
+
+        <EditText
+            android:id="@+id/editTextPurpose"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:hint="Nhập mục tiêu"
+            android:gravity="top"
+            android:padding="10dp"
+            android:background="@android:drawable/edit_text"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:overScrollMode="always"/>
+    </LinearLayout>
+
+    <!-- Send Data Button -->
+    <Button
+        android:id="@+id/buttonSendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi thông tin"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÔNG TIN THU THẬP"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="#00FF99"
+        android:padding="10dp"/>
+
+    <!-- Summary Display -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textViewSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <!-- Buttons -->
+
+    <Button
+        android:id="@+id/buttonSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhắn tin SMS"
+        android:backgroundTint="#FB2D56"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gọi điện thoại"
+        android:backgroundTint="#FB2D56"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mở Camera"
+        android:backgroundTint="#FB2D56"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
