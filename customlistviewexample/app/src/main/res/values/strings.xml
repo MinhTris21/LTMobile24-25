@@ -1,0 +1,7 @@
+<!--<resources>-->
+<!--    <string name="app_name">customlistviewexample</string>-->
+<!--</resources>-->
+<resources>
+    <string name="app_name">customlistviewexample</string>
+    <string name="fruit_image">Fruit Image</string>
+</resources>

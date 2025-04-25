@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <!-- ✅ Title at the top -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhom 36, giai pt bac 2\nax² + bx + c = 0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1976D2"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhap a:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value of a"
+        android:inputType="numberDecimal|numberSigned"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <!-- ✅ Label + Input for 'b' -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhap b:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value of b"
+        android:inputType="numberDecimal|numberSigned"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <!-- ✅ Label + Input for 'c' -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhap c:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value of c"
+        android:inputType="numberDecimal|numberSigned"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <!-- ✅ Solve button -->
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1976D2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
