@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private MaterialTextView responseText;
     private MaterialButton submitButton;
     private OkHttpClient client;
-    private static final String API_KEY = "AIzaSyDtKx3AAETR6FxxpdGh8zXWlH05OKSto5Y"; // Replace with your Gemini API key
+    private static final String API_KEY = "IMPORT API KEY"; // Replace with your Gemini API key
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
     private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
